@@ -1,0 +1,2 @@
+kernel/drivers/gud/gud-exynos9810/MobiCoreDriver/mcDrvModule.ko
+kernel/drivers/gud/gud-exynos9810/TlcTui/t-base-tui.ko

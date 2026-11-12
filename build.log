@@ -1,0 +1,39 @@
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CHK     kernel/config_data.h
+security/samsung/defex_lsm/Makefile:14: [DEFEX] INTEGRITY_ENABLE
+kperfmon_DUMMY="CONFIG_KPERFMON is off."
+kperfmon_DUMMY="olog.pb.h file is missing... retrying"
+cp: cannot stat './../../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../../system/logging/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../frameworks/base/proto/src/olog.proto': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../vendor/samsung/system/libperflog/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+chmod: cannot access './drivers/kperfmon/aprotoc': No such file or directory
+kperfmon_DUMMY=""
+make[2]: ./drivers/kperfmon/aprotoc: No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './drivers/kperfmon/olog.pb.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="olog.pb.h file is missing... again"
+cp: cannot stat './../../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../../system/logging/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+cp: cannot stat './../system/core/liblog/include/log/perflog.h': No such file or directory
+kperfmon_DUMMY=""
+kperfmon_DUMMY="perflog.h file is missing."
+  Building modules, stage 2.
+  MODPOST 2 modules

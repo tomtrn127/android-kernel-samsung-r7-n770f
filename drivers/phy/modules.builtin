@@ -1,0 +1,6 @@
+kernel/drivers/phy/phy-exynos8895-mipi.ko
+kernel/drivers/phy/phy-exynos-displayport.ko
+kernel/drivers/phy/phy-exynos5-usbdrd.ko
+kernel/drivers/phy/phy-exynos-debugfs.ko
+kernel/drivers/phy/phy-exynos-dp-debugfs.ko
+kernel/drivers/phy/phy-exynos-usbdrd.ko

@@ -1,0 +1,7 @@
+kernel/drivers/regulator/fixed.ko
+kernel/drivers/regulator/s2mps18.ko
+kernel/drivers/regulator/s2mps18_powermeter.ko
+kernel/drivers/regulator/s2mpb02-regulator.ko
+kernel/drivers/regulator/s2mpb03.ko
+kernel/drivers/regulator/s2dos05.ko
+kernel/drivers/regulator/s2dos05_powermeter.ko

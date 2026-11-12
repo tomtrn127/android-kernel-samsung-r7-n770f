@@ -1,0 +1,50 @@
+# Build artifacts
+*.o
+*.o.*
+*.a
+*.s
+*.ko
+*.so
+*.so.*
+*.mod
+*.mod.c
+*.cmd
+*.d
+*.symvers
+*.order
+.tmp_*
+vmlinux
+vmlinux.o
+vmlinux.symvers
+System.map
+Module.symvers
+modules.order
+built-in.o
+*.log
+build.log
+
+# Samsung RKP build tmp dir
+scripts/rkp_cfp/tmp/
+
+# Generated config / headers
+.config
+.config.old
+.defconfig
+.missing-syscalls.d
+include/config/
+include/generated/
+arch/*/include/generated/
+arch/*/boot/Image
+arch/*/boot/Image.gz
+arch/*/boot/zImage
+usr/initramfs_data.cpio*
+
+# Toolchains
+toolchain/
+tmp-clang/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
